@@ -4,7 +4,7 @@ const NavBar = ({ totalCounters }) => {
   console.log('NavBar Rendered')
   return (
     <nav className="navbar navbar-light bg-light">
-      <a className="navbar-brand" href="index.hmtl">
+      <a className="navbar-brand" href="index.html">
         Navbar
         <span className="badge badge-pill badge-secondary">
           {totalCounters}
